@@ -24,15 +24,17 @@ Representasi dari objek Mahasiswa (dengan atribut seperti nim, nama, dll).
 ### TabelMahasiswa.class.php
 Menyediakan method untuk query SELECT, INSERT, UPDATE, dan DELETE ke tabel mahasiswa.
 
-## View
-View adalah template HTML yang menampilkan informasi kepada pengguna.
-Template HTML biasanya menggunakan penanda seperti DATA_TABEL.
 ### Template.class.php
 Bertugas memuat file tampilan, menggantikan penanda template dengan nilai sebenarnya dari data, lalu menampilkannya.
 
+## View
+View adalah template HTML yang menampilkan informasi kepada pengguna.
+Template HTML biasanya menggunakan penanda seperti DATA_TABEL.
+View bertanggung jawab untuk menampilkan data kepada pengguna dan menerima input dari pengguna. Di sini, TampilMahasiswa adalah implementasi View yang menangani tampilan data mahasiswa. 
+
 ## Presenter
 Presenter menghubungkan model dan view. Ia mengambil data dari model, memprosesnya jika perlu, lalu meneruskan ke view.
-- Akan memanggil method seperti getMahasiswa(), addMahasiswa(), dst. dari TabelMahasiswa.
+- Akan memanggil method seperti getMahasiswa(), addMahasiswa(), dst. dari TabelMahasiswa. (isinya query-query untuk menghubungkan ke database)
 - Akan menggunakan Template untuk menggantikan konten HTML dengan data yang diambil dari model.
 
 # Alur Program
