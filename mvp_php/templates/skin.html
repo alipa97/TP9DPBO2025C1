@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <title>Mahasiswa</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Mahasiswa</a>
+  </nav>
+
+  <div class="container my-4">
+    <h3 class="mb-4">Form Tambah Mahasiswa</h3>
+    <form method="POST" action="index.php">
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <input type="text" name="nim" class="form-control" placeholder="NIM" required>
+        </div>
+        <div class="form-group col-md-4">
+          <input type="text" name="nama" class="form-control" placeholder="Nama" required>
+        </div>
+        <div class="form-group col-md-4">
+          <input type="text" name="tempat" class="form-control" placeholder="Tempat Lahir" required>
+        </div>
+        <div class="form-group col-md-4">
+          <input type="date" name="tl" class="form-control" required>
+        </div>
+        <div class="form-group col-md-4">
+          <select name="gender" class="form-control" required>
+            <option value="">Pilih Gender</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <input type="email" name="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="form-group col-md-4">
+          <input type="text" name="telp" class="form-control" placeholder="Telp" required>
+        </div>
+        <div class="form-group col-md-4">
+          <button type="submit" name="tambah" class="btn btn-success">Tambah Mahasiswa</button>
+        </div>
+      </div>
+    </form>
+
+    <hr class="my-4">
+
+    <h3 class="mb-4">Tabel Mahasiswa</h3>
+    <table class="table table-bordered text-center">
+      <thead class="thead-light">
+        <tr>
+          <th>NO</th>
+          <th>NIM</th>
+          <th>NAMA</th>
+          <th>TEMPAT</th>
+          <th>TANGGAL LAHIR</th>
+          <th>GENDER</th>
+          <th>EMAIL</th>
+          <th>TELP</th>
+          <th>AKSI</th>
+        </tr>
+      </thead>
+      DATA_TABEL
+    </table>
+  </div>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
