@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/7318223f-a857-4187-9e35-23dfe114048f)# TP9DPBO2025C1
-Saya Alifa Salsabila dengan NIM 2308138 mengerjakan soal Tugas Praktikum 1 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+# TP9DPBO2025C1
+Saya Alifa Salsabila dengan NIM 2308138 mengerjakan soal Tugas Praktikum 9 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # Deskripsi Program
 Aplikasi ini adalah sistem manajemen data mahasiswa sederhana yang dibangun menggunakan arsitektur MVP (Model-View-Presenter). Pengguna dapat menambahkan, mengedit, melihat, dan menghapus data mahasiswa.
